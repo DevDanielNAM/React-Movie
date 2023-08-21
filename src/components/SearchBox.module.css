@@ -1,0 +1,29 @@
+.search {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.search > input {
+  margin-right: 3px;
+  height: 2em;
+  outline: none;
+}
+
+.search > input:focus {
+  border: 2px solid slateblue;
+  border-radius: 3px;
+}
+
+.search button {
+  height: 2.5em;
+  border: 1px solid slateblue;
+  border-radius: 3px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.search button:hover {
+  background-color: slateblue;
+  color: white;
+}

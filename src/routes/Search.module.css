@@ -1,0 +1,39 @@
+.Search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.header {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.Search div {
+  margin-left: 0.8em;
+}
+
+.loading {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding-top: 5em;
+  text-align: center;
+  animation: 3s infinite ease blink;
+}
+
+@keyframes blink {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  100% {
+    color: black;
+  }
+}

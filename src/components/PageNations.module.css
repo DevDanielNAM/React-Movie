@@ -1,0 +1,24 @@
+.PageNations {
+  display: flex;
+  justify-content: center;
+}
+
+.PageNations button {
+  width: 3em;
+  height: 3em;
+  margin: auto 1px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  /* background-color: transparent; */
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.PageNations button:hover {
+  background-color: skyblue;
+}
+
+.currentPage {
+  background-color: skyblue;
+}

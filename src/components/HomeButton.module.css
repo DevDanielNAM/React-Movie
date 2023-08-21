@@ -1,0 +1,20 @@
+.link {
+  display: flex;
+  padding: 1em;
+  text-decoration: none;
+}
+.home {
+  width: 5em;
+  height: 3em;
+  border-radius: 5px;
+  border: 2px solid slateblue;
+  background-color: white;
+  font-size: 1em;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.home:hover {
+  background-color: slateblue;
+  color: white;
+}

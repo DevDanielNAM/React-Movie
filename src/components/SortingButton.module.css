@@ -1,0 +1,26 @@
+.sort {
+  position: absolute;
+  top: 130px;
+  right: 15px;
+}
+
+.sort > button {
+  height: 2.5em;
+  border: 1px solid slateblue;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.sort > button:hover {
+  background-color: slateblue;
+  color: white;
+}
+
+.sortingOff {
+  background-color: white;
+}
+
+.sortingOn {
+  background-color: slateblue;
+  color: white;
+}
