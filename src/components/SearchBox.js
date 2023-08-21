@@ -14,7 +14,9 @@ function SearchBox() {
           setQuery(e.target.value);
         }}
         onKeyUp={(e) =>
-          e.key === "Enter" ? (window.location.href = `/search/${query}`) : null
+          e.key === "Enter"
+            ? (window.location.href = `/React-Movie-Build/search/${query}`)
+            : null
         }
         required
       />

@@ -1,6 +1,4 @@
-import apiKey from "./apikey";
-
-const API_KEY = apiKey.apiKey;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const config = {
   URL: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&language=ko-KR`,

@@ -1,13 +1,12 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import config from "../config/apikey";
 import url from "../config/url";
 import styles from "./Detail.module.css";
 import MovieVideo from "../components/MovieVideo";
 import HomeButton from "../components/HomeButton";
 
 function Detail() {
-  const API_KEY = config.apiKey;
+  const API_KEY = process.env.REACT_APP_API_KEY;
   const { id } = useParams();
   const [details, setDetails] = useState([]);
   const [video, setVideo] = useState([]);
